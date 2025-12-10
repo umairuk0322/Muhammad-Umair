@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    background-color: #555;
+    color: #f09087;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    cursor: pointer;
+}
+.card-content{
+    padding: 30px;
+    line-height: 1.5;
+}
+.card-content h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: firebrick;
+    text-shadow: 2px 5px 10px;
+}
+.card-content p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.card-content .read-more{
+    font-size: 17px;
+    text-decoration: none;
+    color: #b10505;
+    font-weight: bold;
+}
+
