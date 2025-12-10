@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link rel="stylesheet" href="../CSS/services.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="../img/logo.png.webp" alt="logo" /></a>
+        </div>
+        <nav class="site-nav">
+          <ul>
+            <li><a href="../index.html" class="active">Home</a></li>
+            <li><a href="../HTML/about.html">About</a></li>
+            <li><a href="../HTML/projects.html">Projects</a></li>
+            <li><a href="../HTML/services.html">Services</a></li>
+            <li class="dropdown">
+              <a href="">Blog <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="../HTML/blog.html">Blog</a></li>
+                <li><a href="../HTML/single-blog.html">Single Blog</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="">Pages<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="../HTML/project-details.html">Project-Details</a>
+                </li>
+                <li><a href="../HTML/elements.html">Elements</a></li>
+              </ul>
+            </li>
+            <li><a href="../HTML/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-btn">
+          <a href="contact.html" class="btn-outline">Get in Touch</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="breadcrumb">
+      <div class="breadcrumb-text">
+        <h3>Services</h3>
+      </div>
+    </div>
+
+    <!-- services-section -->
+
+    <div class="wrap">
+      <div class="kicker">About Us</div>
+      <div class="main-title">Make your Dream with US</div>
+
+      <div class="services">
+        <div class="service">
+          <a class="circle" href="#">
+            <!-- Replace src with your image path -->
+            <img src="../img/3.png" alt="Interior" />
+          </a>
+          <h3>Interior</h3>
+          <p>
+            Consectetur adipisicing elit, sed do eiusmod <br />
+            tempor incididunt ut labore et dolore magna <br />aliqua quis ipsum
+            suspendisse.
+          </p>
+        </div>
+
+        <div class="service">
+          <a class="circle" href="#">
+            <img src="../img/4.png" alt="Exterior" />
+          </a>
+          <h3>Exterior</h3>
+          <p>
+            Consectetur adipisicing elit, sed do eiusmod <br />
+            tempor incididunt ut labore et dolore magna <br />aliqua quis ipsum
+            suspendisse.
+          </p>
+        </div>
+
+        <div class="service">
+          <a class="circle" href="#">
+            <img src="../img/5.png" alt="Bridge" />
+          </a>
+          <h3>Bridge</h3>
+          <p>
+            Consectetur adipisicing elit, sed do eiusmod <br />
+            tempor incididunt ut labore et dolore magna <br />aliqua quis ipsum
+            suspendisse.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- about-section -->
+
+    <section class="about-section">
+      <!-- Left Image Section -->
+
+      <div class="about-image">
+        <div class="experience-box">
+          <h2>25</h2>
+          <p>YEARS OF EXPERIENCE</p>
+        </div>
+      </div>
+
+      <!-- Right Content Section -->
+      <div class="about-content">
+        <h4>ABOUT US</h4>
+        <h2>
+          Architectural plan <br />
+          design and build
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+          lacus vel facilisis.
+        </p>
+        <ul class="about-list">
+          <li>Consectetur adipiscing sed do eiusmod.</li>
+          <li>Eiusmod tempor incididunt labore.</li>
+        </ul>
+        <button class="about-btn">ABOUT US</button>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+      <div class="testimonial-container">
+        <!-- Slide 1 -->
+        <div class="testimonial active">
+          <img src="../img/author.png.webp" alt="Profile" class="profile" />
+          <p class="quote">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis.
+          </p>
+          <h3>- MITHILA</h3>
+          <span>Designer at Colorlib</span>
+        </div>
+
+        <!-- Navigation -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+    </section>
+
+    <div class="contact-section">
+      <div class="main-container">
+        <div class="image-column">
+          <img
+            src="https://preview.colorlib.com/theme/ararat/img/testmonial/mesege.png.webp"
+            alt="Engineer working on blueprints"
+          />
+        </div>
+
+        <div class="form-column">
+          <p class="subtitle">CONTACT US</p>
+          <h2>Send your message</h2>
+          <div class="underline"></div>
+
+          <form>
+            <input type="email" placeholder="Your Email" required />
+            <input type="text" placeholder="Subject" required />
+            <textarea placeholder="Message" required></textarea>
+            <button class="send-btn">Send US</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <!-- Top Section -->
+      <div class="footer-top">
+        <!-- Left -->
+        <div class="footer-left">
+          <div class="footer-logo">
+            <a href="index.html">
+              <img src="../img/footer-logo.png.webp" alt="Footer Logo" />
+            </a>
+          </div>
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right -->
+        <div class="footer-right">
+          <div class="footer-header">
+            <div class="footer-header-text">
+              <h3>Do you have any project or Query ?</h3>
+              <p>
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              </p>
+            </div>
+            <div class="footer-btn">
+              <a href="#" class="btn">Contact Us</a>
+            </div>
+          </div>
+
+          <!-- Links -->
+          <div class="footer-links">
+            <div class="footer-widget">
+              <h3>Navigation</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-widget">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">Interior</a></li>
+                <li><a href="#">Exterior</a></li>
+                <li><a href="#">Bridge</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-widget">
+              <h3>Speak Now</h3>
+              <ul>
+                <li><a href="#">+10 267 3567 267</a></li>
+                <li>
+                  <a href="mailto:contact@ararat.com">contact@ararat.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="footer-bottom">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All rights reserved | Made with <i class="fa fa-heart-o"></i> by
+          <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

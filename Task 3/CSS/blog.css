@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* ================= Header ================= */
+.site-header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+}
+
+.site-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.site-nav ul li {
+  margin-left: 30px;
+  position: relative;
+}
+
+.site-nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.site-nav ul li a:hover {
+  color: #cccfd2;
+}
+
+ul li ul.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* parent ke niche hi open hoga */
+  left: 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  min-width: 180px;
+}
+
+ul li ul.dropdown-menu li {
+  display: block;
+  margin: 0;
+}
+
+ul li ul.dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+ul li ul.dropdown-menu li a:hover {
+  background: #f5f5f5;
+  color: #000;
+}
+
+ul li:hover ul.dropdown-menu {
+  display: block;
+}
+
+/* Navbar Button */
+.nav-btn {
+  margin-left: 30px;
+}
+
+.btn-outline {
+  padding: 12px 25px;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: black;
+  color: #fff;
+}
+
+.footer {
+  background: #111;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 40px;
+}
+
+/* Top Section */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Left Side */
+.footer-left {
+  width: 25%;
+}
+.footer-logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.social-links a {
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.social-links a:hover {
+  color: #ccc;
+}
+
+/* Right Side */
+.footer-right {
+  width: 70%;
+}
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.footer-header h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.footer-header p {
+  font-size: 14px;
+  color: #bbb;
+}
+.footer-btn .btn {
+  padding: 12px 24px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-btn .btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Links Section */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-widget h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.footer-widget ul {
+  list-style: none;
+}
+.footer-widget ul li {
+  margin-bottom: 8px;
+}
+.footer-widget ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-widget ul li a:hover {
+  color: #fff;
+}
+
+/* Bottom Section */
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  background: #0d0d0d;
+  font-size: 14px;
+  color: #aaa;
+}
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
