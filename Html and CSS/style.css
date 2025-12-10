@@ -1,0 +1,21 @@
+h1{
+    border: 1px solid black;
+    border-radius: 0px;
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    
+    
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 50px;
+}
