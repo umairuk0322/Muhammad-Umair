@@ -110,4 +110,11 @@ h1{
     
     
 }
-
+/* .g1:hover{
+    flex-basis: 50%;
+    transform: rotateX(150deg);
+    transform: translate(54px);
+    transform: scale(2.2);
+    transform: skew(30deg);
+}
+ */
