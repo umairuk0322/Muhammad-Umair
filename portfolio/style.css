@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 80px;
+}
+#navbar img{
+    width: 150px;
+}
+.links{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 100%;
+}
+.links li{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    transition: all .3s;
+}
+li a:hover{
+    color: #ec5b53;
+}
+li:nth-child(5){
+    position: relative;
+}
+.menu{
+    display: none;
+}
+li:nth-child(5):hover .menu{
+    display:  block;
+}
+.menu-parent{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 120px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.menu-item{
+    margin: 5px 0;
+    cursor: pointer;
+    transition: all .3s;
+}
+.menu-item:hover{
+    color: #ec5b53;
+    margin-left: 5px;
+}
+
+.links button{
+    background-color: #ec5b53;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Pseusdo Selector  */
+
+#hero-section{
+    background: url('./assets/hero.webp') no-repeat center/cover;
+    height: 100vh;
+}
+.hero-content{
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.hero-content h5{
+    color: #ec5b53;
+    font-weight: lighter;
+}
+.hero-content h1{
+    font-size: 45px;
+    width: 40%;
+    color: #002d5b;
+}
+.hero-content p{
+    width: 40%;
+font-size: 12px;
+}
+.hero-btn{
+    background-color: #ec5b53;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    /* border-radius: 3px; */
+    cursor: pointer;
+    width: 120px;
+    transition: all .5s;
+    box-shadow: 5px 5px 5px rgb(200, 200, 200);
+    text-shadow: -3px -3px 3px black;
+}
+.hero-btn:hover{
+    /* transform: rotateY(360deg); */
+    /* transform: skew(15deg); */
+    /* transform: scale(1.1); */
+    transform: translate(50px);
+
+}
+.hero-btn:last-child{
+    background: transparent;
+    border: 1px solid #e3c6c6;
+    color: black;
+    margin-left: 10px;
+}

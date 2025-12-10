@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+h1{
+    margin-top: 80px;
+    margin-left: 100px;
+    color: #000a2d;
+    font-size: 48px;
+    font-weight: 600;
+    width: 500px;
+}
+.img1{
+    position: relative;
+    width: 771px;
+    height: 770px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.img2{
+    position: relative;
+    top: -410px;
+    margin-left: 30px;
+}
+.img3{
+    position: relative;
+    left: 905px;
+    top: -400px;
+    margin-top: 20px;
+    
+    
+}
+.img4{
+    position: relative;
+    right: 260px;
+    margin-top: 30px;
+}
+.img5{
+    position: relative;
+    right: 230px;
+   
+}
+.img6{
+    position: relative;
+    left: 900px;
+    top: -365px;
+}
