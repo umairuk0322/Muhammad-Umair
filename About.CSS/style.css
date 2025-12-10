@@ -1,0 +1,29 @@
+h1{
+    /* select by name tag */
+    color: red;
+    
+}
+/* select by class */
+
+.title{
+    background-color: red;
+}
+.content{
+    background-color: aquamarine;
+}
+.textcol{
+    color: white;
+}
+.font{
+    font-size: 100px;
+    /* Select by id */
+}
+#another{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+section, header, footer{
+    background-color: blueviolet;
+    color: white;
+}
