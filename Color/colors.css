@@ -1,0 +1,33 @@
+h1{
+    /* color by name */
+    /* background-color: blue;
+    color: white; */
+    /* color by rgb */
+    /* background-color: rgb(56, 104, 36);
+    color: rgb(255, 255, 255); */
+    /* color by hex value */
+    /* background-color: #298a53;
+    color: #000; */
+}
+.content{
+      /* border-width: 3px;
+      border-style: solid;
+      border-color: black; */
+      /* border: 3px solid black; */
+      /* border-bottom: 2px solid black;
+      border-top: 4px double red; */
+      /* border: 3px double red; */
+      border: 5px solid brown;
+      text-align: center;
+      /* border-radius: 50%; */
+      width: 300px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top-left-radius: 100%;
+      border-bottom-right-radius: 200%;
+      border-bottom-left-radius: 400%;
+      
+     
+}

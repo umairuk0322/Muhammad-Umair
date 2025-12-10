@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav {
+    background-color: black;
+    height: 2.5rem;
+    
+   
+  
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     color: aqua;
+    
+}
+ul li{
+    display: flex;
+    margin-top: 1%;
+    font-size: larger;
+    text-decoration: none;
+    
+   transition: 0.3s;
+}
+
+ul li:hover{
+    color: #e90972;
+    
+}

@@ -1,0 +1,29 @@
+/* Universal Selector */
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+h1{
+    border: 2px solid black;
+    /* padding: 30px; */
+    /* padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 100px; */
+    /* margin: 30px; */
+    /* background-color: red; */
+    /* background-color: red; */
+    /* padding: 50px; */
+    /* padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px; */
+    /* short hand of padding */
+    /* padding: 50px 30px; */
+    padding: 10px 20px 30px 40px;
+
+}
+img{
+    border: 2px solid black;
+   
+    
