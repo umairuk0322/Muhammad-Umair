@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0,5rem;
+    background-color: black;
+    color: #fff;
+   
+}
+#bars{
+    font-size: 35px;
+    display: none;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+   
+    
+     
+    
+}
+ul li{
+    list-style: none;
+    
+   
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 20px;
+    font-size: 18px;
+    margin-right: 11px;
+    color: #fff;
+    cursor: pointer;
+}
+.logo img{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+h1{
+    position: relative;
+    left: 50px;
+    top: -40px;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+ul .btn{
+    padding: 4px 20px;
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    
+
+}
+.toggle-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    display: none;
+    
+    
+}
+
+/* ------------------MEDIA QUERY------------------------ */
+@media (max-width: 800px){
+    
+    nav ul{
+        display: block;
+        background-color: #555;
+        
+    }
+    .toggle-icon{
+        display: none;
+    }
+   
+}
+
+@media (max-width: 600px){
+    nav{
+        padding: 1rem;
+    }
+    
+     nav h1{
+        font-size: medium;
+    }
+    .toggle-icon{
+        display: block;
+        
+    }
+    #bars{
+        display: block;
+        
+
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        position: relative;
+        left: 150px;
+        top: 159px;
+        gap: 30px;
+        
+        
+        
+    }
+    
+}
+@media (max-width: 480px){
+    nav ul{
+        display: none;
+
+    }
+    #bars{
+        display: none;
+    }
+
+        
+    }
+   /* @media (max-width: 1494px){
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+   } */
