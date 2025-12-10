@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    width: 200px;
+}
+#box1{
+    background-color: red;
+     
+}
+#box2{
+    background-color: blue;
+    position: relative;
+    
+}
+#box3{
+    background-color: gray;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+   
+    
+   
+    
+}
+#box4{
+    background-color: green;
+    transition: 2s;
+    position: relative;
+    top: 150px;
+    
+}
+.container{
+    display: flex;
+    height: 300vh;
+}
+#box4:hover{
+    transform: rotate(250deg);
+    transform: translate(200px, 300px);
+    transform: scale(2, 3);
+    transform: skews(30deg);
+    transform: matrix(2, 1, 1, 2, 70, -100);
+    transform: translate(50px, 30px) rotate(45deg) scale(1.2) skew(10deg, 15deg);
+    
+}
+
