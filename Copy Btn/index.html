@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Button</title>
+</head>
+<body>
+    <button onclick="copyBtn()">Copy</button>
+
+    <!-- <script>
+        function copyBtn() {
+            const textToCopy = "Hello, World!";
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert("Text copied to clipboard: " + textToCopy);
+            }).catch(err => {
+                console.error("Failed to copy text: ", err);
+            });
+        }
+    </script> -->
+
+    <script>
+
+        let text = "Umair Khan";
+
+
+        function copyBtn(){
+            navigator.clipboard.writeText(text)
+
+        }
+
+
+    </script>
+
+    
+    <!-- <button onclick="copyText()">Copy</button>
+    <script>
+        let text = "Hello World";
+function copyText(){
+    navigator.clipboard.writeText(text)
+}
+
+    </script> -->
+</body>
+</html>
