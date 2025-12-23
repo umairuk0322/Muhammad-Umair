@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modes</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            height: 100vh;
+            transition: all 0.5s;
+            
+        }
+        .btn{
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+        }
+        button{
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="btn">
+            <button class="mode-btn" onclick="changeMode('black')">Enable DarkMode</button>
+            <button onclick="changeMode('Green')">Enable Greenmode</button>
+            <button onclick="changeMode('Blue')">Enable Bluemode</button>
+            <button onclick="changeMode('Red')">Enable Redmode</button>
+            
+        </div>
+        
+        <h1>Dark Mode</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nemo laudantium, similique laboriosam adipisci cupiditate culpa quisquam velit tempora fugit iure? Qui deserunt nisi voluptatum vel voluptates placeat dicta odio.</p>
+        <button>Click</button>
+    </div>
+    <script src="mode.js"></script>
+    
+</body>
+</html>
