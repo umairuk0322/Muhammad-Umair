@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow-y: hidden;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 80px;
+    border: 10px dotted #fd3706;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    gap: 30px;
+    cursor: pointer;
+
+}
