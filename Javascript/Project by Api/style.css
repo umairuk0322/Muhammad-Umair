@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+#btn{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px 0px;
+}
+#btn button{
+    padding: 10px 20px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 30px
+    
+}
+.products .product{
+    width: 300px;
+    margin-top: 20px;
+   box-shadow: 5px 5px 5px teal;
+
+}
+.product.header{
+    margin: 10px 0px;
+}
+.product img{
+    width: 100%;
+}

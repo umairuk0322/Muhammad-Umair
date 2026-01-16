@@ -1,0 +1,13 @@
+Website Api Link
+
+
+https://dummyjson.com/product (https://react-vite-projects-5-menu.netlify.app/)
+
+https://newsapi.org/
+https://superheroapi.com/
+
+
+
+Api = Application Programing interface
+
+Apis format = JSON - javascript object notation
