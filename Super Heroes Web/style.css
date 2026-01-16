@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #fff;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+#search {
+  width: 320px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.grid {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: rgba(255,255,255,0.08);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-12px) scale(1.04);
+  box-shadow: 0 25px 60px rgba(99,102,241,0.6);
+}
+
+.card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 15px;
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.info p {
+  font-size: 0.9rem;
+  color: #c7d2fe;
+}
+.info .price {
+  font-weight: 600;
+  color: #6366f1;
+  margin-top: 8px;
+  font-size: 1rem;
+}
