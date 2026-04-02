@@ -7,6 +7,14 @@ body{
     background-color: black;
     overflow-y: hidden;
 }
+h1{
+    color: #fd3706;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    font-size: 60px;
+    
+}
 div{
     display: flex;
     justify-content: center;
